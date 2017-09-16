@@ -1,0 +1,8 @@
+#logo {
+    background-image: url("/image/lonelywolf.jpg");
+    background-size: contain;
+    -webkit-background-size: contain;
+    background-repeat: no-repeat;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "website node",
+  "main": "server.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "server",
+    "wolf",
+    "lonelywolf"
+  ],
+  "author": "@stv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
