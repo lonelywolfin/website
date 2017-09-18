@@ -5,9 +5,15 @@ body{
     height: 100%;
     padding: 0;
     margin: 0;
-    box-sizing: 100%;
-    min-height: 100%;
+    /* box-sizing: 100%; */
+    /* min-height: 100%; */
 }
+/* html{
+    height: 100%;
+} */
+/* .container {
+    height: 100%;
+} */
 #logo {
     background-image: url("/image/lonelywolf.jpg");
     background-size: contain;
@@ -28,23 +34,24 @@ body{
 .navbar-brand{
     background-image: url("/image/lonelywolf.jpg");
 }
+#head-image{
+    /* background-image: url("/image/gotwolf2.png"); */
+    /* height: 2em; */
+    width: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    align-content: center;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 10px;
+
+
+
+
+}
 @media (min-width: 768px) {
-    #head-image{
-        /* background-image: url("/image/gotwolf2.png"); */
-        /* height: 2em; */
-        width: 100%;
-        background-repeat: no-repeat;
-        color: #ffffff;
-        align-content: center;
-        text-align: center;
-        font-family: 'Pacifico', cursive;
-        font-size: 4em;
-        margin-bottom: 10px;
     
-    
-
-
-    }
     .spacer{
         /* margin-top: 4em; */
         /* margin-left: 6em; */
