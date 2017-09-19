@@ -24,12 +24,19 @@ body{
 }
 .navbar a {
     font-family: 'Berkshire Swash', cursive;
-    font-size: 22px;
+    font-size: 16px;
+    color: #000000;
+    text-shadow: 2px;
+}
+.navbar a:active{
+    /* background-color: #6A84CA; */
+    background-color: #22313F;
 }
 .spacer{
     background-color:#b3c2bf;
     height: 100%;
     width: 80%;
+    margin: 0;
 }
 .navbar-brand{
     background-image: url("/image/lonelywolf.jpg");
@@ -43,7 +50,7 @@ body{
     align-content: center;
     text-align: center;
     font-family: 'Pacifico', cursive;
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 10px;
 
 
@@ -63,12 +70,42 @@ body{
         text-align: center;
 
    }
+
    
-   
-   li{
-       width: 200px;
-       flex: 1;
+   .nav li{
+       width: 175px;
+       /* flex: 1; */
        text-align: center;
-       /* background-color: silver; */
+       /* background-color: silver; */  
    }
+}
+   .nav li:hover {
+       box-shadow: 0 0 10px #000000;
+       transition: box-shadow 0.3s ease-in-out;
+       
+   }
+   
+    .quote {
+    font-family: 'Pacifico', cursive;
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    /* margin-top: 100px; */
+    margin: 50px 50px;
+    color: #716161;
+    font-style: italic;
+  }
+  .main-text {
+    margin: 25px 50px 25px 50px;
+    font-family: 'Asap Condensed', sans-serif;
+    color:rgba(0, 0,0, 1);
+    text-align: justify;
+    font-size: 24px;
+    text-indent: 100px;
+  }
+  .main-text::first-letter{
+      font-size: 400%;
+      font-family: 'Berkshire Swash', cursive;
+    
+
   }

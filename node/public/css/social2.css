@@ -9,13 +9,14 @@
     text-decoration: none;
     color: #000000;
 }
-/* .social  li {
+ .social  li {
     display: block;
     width: 20%;
     margin-bottom: 50px;
     margin-top: 100px;
     margin-left: 100px;
-} */
+    align-content: center;
+} 
  
 .social a {
     width:100%;
@@ -42,9 +43,16 @@
 .people-image img {
     /* max-width: 100%; */
     /* max-height: 100%; */
+    display: block;
+    margin: 0 auto;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+.people-box div {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 .people-social {
     display: inline-block;
